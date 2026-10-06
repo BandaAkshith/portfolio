@@ -216,8 +216,8 @@ const PortfolioApp = (() => {
     let rafId = null;
 
     const moveCursor = () => {
-      ringX += (pointerX - ringX) * 0.22;
-      ringY += (pointerY - ringY) * 0.22;
+      ringX += (pointerX - ringX) * 0.28;
+      ringY += (pointerY - ringY) * 0.28;
 
       elements.cursorDot.style.transform = `translate(${pointerX}px, ${pointerY}px) translate(-50%, -50%)`;
       elements.cursorRing.style.transform = `translate(${ringX}px, ${ringY}px) translate(-50%, -50%)`;
